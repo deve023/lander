@@ -2,7 +2,7 @@
 
 float coord_y_en_recta(float **v, size_t n, float x) {
 	float y_inter, x0, x1, y0, y1, m;
-	int i;
+	size_t i;
 
 	for(i = 1; x > *(v[i]) && i < n; i++);
 
